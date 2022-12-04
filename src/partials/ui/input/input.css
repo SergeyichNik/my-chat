@@ -1,8 +1,7 @@
 .input-container {
-    margin: 20px 0;
+    margin: 15px 0;
     width: 100%;
     position: relative;
-
 }
 
 .input-label {
@@ -27,6 +26,7 @@
     color: var(--base);
     border-bottom: 1px solid var(--primary);
 }
+
 .input-container input:valid ~ span,
 .input-container input:focus ~ span {
     transform: translateX(-5px) translateY(-25px);

@@ -1,13 +1,14 @@
 {{!< desktop}}
-
-<div class="auth-page">
-    <div class="auth-page__top">
-        {{> "ui/page-title/pageTitle" title="Вход"}}
-        {{> "ui/input/input" fieldName="Логин" type="text"}}
-        {{> "ui/input/input" fieldName="Пароль" type="password"}}
-    </div>
-    <div class="auth-page__bottom">
-        {{> "ui/button/button" text="Авторизоваться" type="submit"}}
-        {{> "ui/link/link" text="Нет аккаунта?" href="#"}}
+<div class="container">
+    <div class="auth-page">
+        <form class="auth-page__top">
+            {{> "ui/page-title/pageTitle" title="Вход"}}
+            {{> "ui/input/input" fieldName="Логин" type="text"}}
+            {{> "ui/input/input" fieldName="Пароль" type="password"}}
+        </form>
+        <div class="auth-page__bottom">
+            {{> "ui/button/button" text="Авторизоваться" type="submit"}}
+            {{> "ui/link/link" text="Нет аккаунта?" href="registration.hbs"}}
+        </div>
     </div>
 </div>

@@ -1,0 +1,20 @@
+{{!< desktop}}
+
+<div class="container">
+    <div class="registration-page">
+        <form class="registration-page__top">
+            {{> "ui/page-title/pageTitle" title="Регистрация"}}
+            {{> "ui/input/input" fieldName="Почта" type="text"}}
+            {{> "ui/input/input" fieldName="Логин" type="text"}}
+            {{> "ui/input/input" fieldName="Имя" type="text"}}
+            {{> "ui/input/input" fieldName="Фамилия" type="text"}}
+            {{> "ui/input/input" fieldName="Телефон" type="tel"}}
+            {{> "ui/input/input" fieldName="Пароль" type="password"}}
+            {{> "ui/input/input" fieldName="Подтердить пароль" type="password"}}
+        </form>
+        <div class="registration-page__bottom">
+            {{> "ui/button/button" text="Зарегестрироваться" type="submit"}}
+            {{> "ui/link/link" text="Войти" href="authorization.hbs"}}
+        </div>
+    </div>
+</div>
