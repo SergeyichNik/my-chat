@@ -1,0 +1,14 @@
+.button {
+    height: 37px;
+    color: var(--white);
+    font-size: 14px;
+    width: 100%;
+    background: var(--primary);
+    border-radius: 8px;
+    border: none;
+    transition: 0.1s all;
+}
+
+.button:active {
+    background: var(--primary-up);
+}
