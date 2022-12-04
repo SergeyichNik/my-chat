@@ -19,6 +19,7 @@
   "homepage": "https://github.com/SergeyichNik/my-chat#readme",
   "devDependencies": {
     "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "@parcel/resolver-glob": "^2.8.0",
     "parcel": "^2.8.0",
     "postcss-import": "^15.0.1"
   },

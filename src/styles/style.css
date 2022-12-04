@@ -1,7 +1,5 @@
-@import "../partials/ui/input/input.css";
-@import "../partials/ui/page-title/pageTitle.css";
-@import "../partials/ui/button/button.css";
-@import "../partials/ui/link/link.css";
+@import "../partials/**/*.css";
+
 @import "./notFound.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600&display=swap');
@@ -12,15 +10,17 @@
     --primary-up: #0e4ff5;
     --base: #1E1E1E;
     --gray: #999999;
+    --gray-light: #dad9d9;
 }
 
 * {
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 body {
     background-color: #EFEFEF;
-    font-family: 'Noto Sans', sans-serif;
+
     box-sizing: border-box;
     font-size: 14px;
     margin: 0;
